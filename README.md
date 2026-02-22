@@ -25,14 +25,17 @@ All steps are implemented using scikit-learn Pipelines to ensure proper evaluati
 * 1440 grayscale images
 * Controlled background and lighting
 
+## The COIL-20 dataset can be downloaded from:
+https://cave.cs.columbia.edu/repository/COIL-20
+
 ## Results
 
-| Method            Accuracy |
-| ----------------  -------- |
-| PCA + Linear SVM  ~94%     |
-| PCA + RBF SVM     ~95%     |
-| LDA + Linear SVM  ~96%     |
-| LDA + RBF SVM     ~97%     |
+| Method           | Accuracy (%) |
+| ---------------- | ------------ |
+| PCA + Linear SVM | ~94%         |
+| PCA + RBF SVM    | ~95%         |
+| LDA + Linear SVM | ~96%         |
+| LDA + RBF SVM    | ~97%         |
 
 LDA combined with RBF SVM achieves the best performance.
 
